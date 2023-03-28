@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Login } from './components/login/view';
+import { CustomRoute } from './pages/route';
 
 const App = () => {
 
 return (
 
   <React.Fragment>
-  <Login />
+  <CustomRoute />
   </React.Fragment>
 );
 

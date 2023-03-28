@@ -1,6 +1,6 @@
 import { useState, React } from "react";
-import InputField from "../../input-field/inputField";
 import { LoginWrapper } from "./loginStyle";
+import InputField from '../../../components/input-field/inputField';
 export const Login = () => {
   const [login, setLogin] = useState({
     username: "",
